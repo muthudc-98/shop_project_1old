@@ -1,0 +1,21 @@
+{% load static %}
+<!DOCTYPE html>
+<html >
+<head>
+		<link rel="stylesheet"  href="{% static 'css/style.css' %}">
+		<title>Welcome to our shop.. </title>
+</head >
+<body >
+	<h1 >Welcome to our shop.... </h1>
+	<h2 style="color: white; ; "><b>We have variety of shoes especially for mens..  </b></h2>
+	<img src="{%static 'images/shoe shop.jpeg '%}"  width="500px" height="375px"><br><br>
+	<pre style="color:white; font-size:larger; padding-top: 0px; font-family: times new roman;"><b><u>For more details click below....... </u></b></pre>
+	
+		<a href="/images" style="font-size: x-large; color: white; padding-left: 30px;padding-right: 30px;padding-top: 2px;padding-bottom: 5px; background-color:black ;"><u> <b> Images</b> </u></a><br><br> <hr>
+	
+	
+</body>
+{% block content %}
+{% endblock %}
+</html>
+
